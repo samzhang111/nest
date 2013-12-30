@@ -1,10 +1,10 @@
-from flask import Flask, render_template
-application = Flask(__name__)
-application.debug=True
+from flask import Flask
+application = app = Flask(__name__)
 
-@application.route("/")
-def index():
-    return "<html>What?</html>"
+@app.route("/")
+def hello():
+    return "Hello World!"
 
-if __name__ == '__main__':
-    application.run(host='0.0.0.0', debug=True)
+if __name__ == "__main__":
+    application.run()
+
