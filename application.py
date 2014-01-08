@@ -7,7 +7,7 @@ db = SQLAlchemy(application)
 
 @application.route("/")
 def hello():
-    return "Hello World!"
+    return "Testing!"
 
 if __name__ == "__main__":
     application.run()
