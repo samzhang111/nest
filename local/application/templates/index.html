@@ -1,0 +1,18 @@
+<html>
+		<head>
+				<title>Nest</title>
+		</head>
+		
+		<body>
+				Welcome to the nested annotation comment board.<br>
+				Existing comments:<br>
+				{% for comment in comments %}
+				<p>
+				{% for d in comment.depth %}
+				&nbsp;
+				{% endfor %}
+				{{comment.author}}: {{comment.body}}<br>
+				</p>
+				{% endfor %}
+		</body>
+</html>
