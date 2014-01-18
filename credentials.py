@@ -1,2 +1,0 @@
-user="ebroot"
-pw="doesgitrmremovefile"
