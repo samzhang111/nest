@@ -1,5 +1,4 @@
 .elasticbeanstalk/
 *.swp
 *.pyc
-credentials.py
 credentials_aws.py
